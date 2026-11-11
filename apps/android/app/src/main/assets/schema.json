@@ -1,0 +1,72 @@
+{
+  "packageName": "ai.yaho.hyundai",
+  "appDescription": "An in-vehicle safety companion for reviewing driving context, reporting road events, and requesting vehicle service.",
+  "invokeWord": "야호",
+  "version": "0.1.2-preview",
+  "actionCalls": [
+    {
+      "type": "function",
+      "function": {
+        "name": "GET_DRIVING_CONTEXT",
+        "description": "Returns consent-gated cached SDK availability and freshness only. Does not disclose private signal values, coordinates, destination, or history.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "scope": {
+              "type": "string",
+              "enum": ["vehicle", "navigation", "all"],
+              "description": "The category of driving context to retrieve."
+            }
+          },
+          "required": []
+        },
+        "component": "activity"
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "REPORT_ROAD_EVENT",
+        "description": "Prepares a road event report for the user to review and explicitly confirm before submission.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": ["stalled_vehicle", "road_hazard", "traffic", "other", "slippery_report", "rain_report", "accident_report"],
+              "description": "The category of road event to report."
+            }
+          },
+          "required": ["kind"]
+        },
+        "component": "activity"
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "REQUEST_SERVICE_BOOKING",
+        "description": "Prepares a vehicle service request for the user to review and explicitly confirm before submission.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "serviceType": {
+              "type": "string",
+              "description": "The vehicle maintenance or inspection service requested."
+            },
+            "requestedDate": {
+              "type": "string",
+              "description": "The preferred service date in ISO 8601 format."
+            },
+            "notes": {
+              "type": "string",
+              "description": "Additional details for the service request."
+            }
+          },
+          "required": ["serviceType", "requestedDate"]
+        },
+        "component": "activity"
+      }
+    }
+  ]
+}

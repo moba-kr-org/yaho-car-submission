@@ -1,0 +1,77 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <queries>
+        <intent><action android:name="android.speech.RecognitionService" /></intent>
+    </queries>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="pleos.car.permission.CAR_DOORS" />
+    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <uses-permission android:name="pleos.car.permission.FUSED_LOCATION" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_CLIMATE" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_MILEAGE" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_POWERTRAIN" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CAR_MIRRORS" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_TOLL" />
+
+    <uses-permission android:name="pleos.car.permission.READ_CAR_DISPLAY_UNITS" />
+
+    <uses-permission android:name="pleos.car.permission.READ_CAR_STEERING" />
+
+    <uses-permission android:name="pleos.car.permission.CAR_INFO" />
+
+    <uses-permission android:name="android.car.permission.CAR_SPEED" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:label="YAHO Hyundai"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YahoHyundai">
+        <receiver android:name=".vehicle.ObservationBootReceiver" android:exported="false">
+            <intent-filter><action android:name="android.intent.action.BOOT_COMPLETED" /></intent-filter>
+        </receiver>
+        <service android:name=".vehicle.VehicleObservationService" android:exported="false" android:foregroundServiceType="dataSync" />
+        <activity
+            android:name=".MainActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:configChanges="orientation|screenSize|smallestScreenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true">
+            <meta-data android:name="distractionOptimized" android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="GET_DRIVING_CONTEXT" />
+                <action android:name="REPORT_ROAD_EVENT" />
+                <action android:name="REQUEST_SERVICE_BOOKING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

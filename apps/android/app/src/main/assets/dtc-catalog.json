@@ -1,0 +1,1108 @@
+{
+  "version": 1,
+  "source": "YAHO CAR 일반 DTC 사전",
+  "reviewStatus": "차종별 정비 검증 전 · 참고용",
+  "sourceSha256": "6db40e7dc3fac5c0c5ba2488b40755be736d594c8db054bf14295adcb3a1df82",
+  "entries": [
+    {
+      "code": "P0001",
+      "system": "fuel",
+      "summary": "연료 유량 조절기 회로 개방 — 연료량 제어 배선·커넥터 점검"
+    },
+    {
+      "code": "P0002",
+      "system": "fuel",
+      "summary": "연료 유량 조절기 범위/성능 이상 — 조절기 오염·작동 확인"
+    },
+    {
+      "code": "P0003",
+      "system": "fuel",
+      "summary": "연료 유량 조절기 저전압 — 공급 전압·접점 점검"
+    },
+    {
+      "code": "P0004",
+      "system": "fuel",
+      "summary": "연료 유량 조절기 고전압 — 단락·제어기 출력 점검"
+    },
+    {
+      "code": "P0010",
+      "system": "engine",
+      "summary": "캠샤프트 액추에이터 회로 이상(뱅크1) — VVT 솔레노이드·배선 점검"
+    },
+    {
+      "code": "P0011",
+      "system": "engine",
+      "summary": "캠 타이밍이 지정보다 앞섬(뱅크1) — 오일 순환·VVT 작동 확인"
+    },
+    {
+      "code": "P0012",
+      "system": "engine",
+      "summary": "캠 타이밍이 지정보다 늦음(뱅크1) — 오일 압력·솔레노이드 점검"
+    },
+    {
+      "code": "P0013",
+      "system": "engine",
+      "summary": "캠 액추에이터 회로 이상(뱅크1 배기측) — 배기 VVT 배선 점검"
+    },
+    {
+      "code": "P0014",
+      "system": "engine",
+      "summary": "캠 타이밍 앞섬(뱅크1 배기측)"
+    },
+    {
+      "code": "P0015",
+      "system": "engine",
+      "summary": "캠 타이밍 늦음(뱅크1 배기측)"
+    },
+    {
+      "code": "P0016",
+      "system": "engine",
+      "summary": "크랭크-캠 위치 상관 불일치(뱅크1) — 타이밍 벨트/체인 어긋남 의심"
+    },
+    {
+      "code": "P0017",
+      "system": "engine",
+      "summary": "크랭크-캠 위치 상관 불일치(뱅크1 센서2)"
+    },
+    {
+      "code": "P0020",
+      "system": "engine",
+      "summary": "캠샤프트 액추에이터 회로 이상(뱅크2)"
+    },
+    {
+      "code": "P0021",
+      "system": "engine",
+      "summary": "캠 타이밍 앞섬(뱅크2)"
+    },
+    {
+      "code": "P0022",
+      "system": "engine",
+      "summary": "캠 타이밍 늦음(뱅크2)"
+    },
+    {
+      "code": "P0030",
+      "system": "emission",
+      "summary": "O2 센서 히터 제어 회로 이상(뱅크1 센서1)"
+    },
+    {
+      "code": "P0031",
+      "system": "emission",
+      "summary": "O2 히터 회로 저전압(뱅크1 센서1) — 히터 저항 점검"
+    },
+    {
+      "code": "P0036",
+      "system": "emission",
+      "summary": "O2 센서 히터 제어 회로 이상(뱅크1 센서2)"
+    },
+    {
+      "code": "P0087",
+      "system": "fuel",
+      "summary": "연료 레일 압력 낮음 — 연료 펌프·필터·압력 조절기 점검"
+    },
+    {
+      "code": "P0088",
+      "system": "fuel",
+      "summary": "연료 레일 압력 높음 — 압력 조절기·리턴 계통 점검"
+    },
+    {
+      "code": "P0090",
+      "system": "fuel",
+      "summary": "연료 압력 조절기 회로 이상"
+    },
+    {
+      "code": "P0100",
+      "system": "intake",
+      "summary": "MAF(공기량) 센서 회로 이상 — 신호 점검 후 정화 검토"
+    },
+    {
+      "code": "P0101",
+      "system": "intake",
+      "summary": "MAF(공기량) 센서 범위/성능 — 센서 오염·흡기 누기 점검"
+    },
+    {
+      "code": "P0102",
+      "system": "intake",
+      "summary": "MAF 센서 신호 낮음 — 커넥터·배선 점검"
+    },
+    {
+      "code": "P0103",
+      "system": "intake",
+      "summary": "MAF 센서 신호 높음 — 센서 교체 검토"
+    },
+    {
+      "code": "P0106",
+      "system": "intake",
+      "summary": "MAP(흡기압) 센서 범위/성능 — 진공 누기 점검"
+    },
+    {
+      "code": "P0107",
+      "system": "intake",
+      "summary": "MAP 센서 신호 낮음"
+    },
+    {
+      "code": "P0108",
+      "system": "intake",
+      "summary": "MAP 센서 신호 높음"
+    },
+    {
+      "code": "P0110",
+      "system": "intake",
+      "summary": "흡기온도(IAT) 센서 회로 이상"
+    },
+    {
+      "code": "P0111",
+      "system": "intake",
+      "summary": "흡기온도(IAT) 센서 범위/성능"
+    },
+    {
+      "code": "P0112",
+      "system": "intake",
+      "summary": "흡기온도 센서 신호 낮음"
+    },
+    {
+      "code": "P0113",
+      "system": "intake",
+      "summary": "흡기온도 센서 신호 높음 — 센서 단선 의심"
+    },
+    {
+      "code": "P0120",
+      "system": "throttle",
+      "summary": "스로틀 위치 센서 A 회로 이상"
+    },
+    {
+      "code": "P0125",
+      "system": "cooling",
+      "summary": "폐루프 제어 진입을 위한 냉각수온 부족 — 서모스타트 의심"
+    },
+    {
+      "code": "P0150",
+      "system": "emission",
+      "summary": "O2 센서 회로 이상(뱅크2 센서1) — V형 엔진 우측 계통 점검"
+    },
+    {
+      "code": "P0155",
+      "system": "emission",
+      "summary": "O2 센서 히터 회로 이상(뱅크2 센서1)"
+    },
+    {
+      "code": "P0161",
+      "system": "emission",
+      "summary": "O2 센서 히터 회로 이상(뱅크2 센서2)"
+    },
+    {
+      "code": "P0116",
+      "system": "cooling",
+      "summary": "냉각수온(ECT) 센서 범위/성능 — 온도 상승 곡선 확인"
+    },
+    {
+      "code": "P0117",
+      "system": "cooling",
+      "summary": "냉각수온 센서 신호 낮음"
+    },
+    {
+      "code": "P0118",
+      "system": "cooling",
+      "summary": "냉각수온 센서 신호 높음 — 센서·배선 점검"
+    },
+    {
+      "code": "P0121",
+      "system": "throttle",
+      "summary": "스로틀 위치 센서 범위/성능 — 가속페달 반응 확인"
+    },
+    {
+      "code": "P0122",
+      "system": "throttle",
+      "summary": "스로틀 위치 센서 신호 낮음"
+    },
+    {
+      "code": "P0123",
+      "system": "throttle",
+      "summary": "스로틀 위치 센서 신호 높음"
+    },
+    {
+      "code": "P0130",
+      "system": "emission",
+      "summary": "O2 센서 회로 이상(뱅크1 센서1)"
+    },
+    {
+      "code": "P0131",
+      "system": "emission",
+      "summary": "O2 센서 신호 낮음(뱅크1 센서1) — 희박·센서 노화 점검"
+    },
+    {
+      "code": "P0132",
+      "system": "emission",
+      "summary": "O2 센서 신호 높음(뱅크1 센서1)"
+    },
+    {
+      "code": "P0133",
+      "system": "emission",
+      "summary": "O2 센서 응답 지연(뱅크1 센서1) — 센서 교체 시기 의심"
+    },
+    {
+      "code": "P0134",
+      "system": "emission",
+      "summary": "O2 센서 활동 감지 없음(뱅크1 센서1)"
+    },
+    {
+      "code": "P0135",
+      "system": "emission",
+      "summary": "O2 센서 히터 회로 이상(뱅크1 센서1)"
+    },
+    {
+      "code": "P0136",
+      "system": "emission",
+      "summary": "O2 센서 회로 이상(뱅크1 센서2)"
+    },
+    {
+      "code": "P0137",
+      "system": "emission",
+      "summary": "O2 센서 신호 낮음(뱅크1 센서2)"
+    },
+    {
+      "code": "P0138",
+      "system": "emission",
+      "summary": "O2 센서 신호 높음(뱅크1 센서2)"
+    },
+    {
+      "code": "P0141",
+      "system": "emission",
+      "summary": "O2 센서 히터 회로 이상(뱅크1 센서2)"
+    },
+    {
+      "code": "P0171",
+      "system": "fuel",
+      "summary": "연료 계통 희박(뱅크1) — 흡기 누기·연료 압력·MAF 점검"
+    },
+    {
+      "code": "P0172",
+      "system": "fuel",
+      "summary": "연료 계통 후빙(뱅크1) — 인젝터·연료 압력 조절기 점검"
+    },
+    {
+      "code": "P0174",
+      "system": "fuel",
+      "summary": "연료 계통 희박(뱅크2)"
+    },
+    {
+      "code": "P0175",
+      "system": "fuel",
+      "summary": "연료 계통 후빙(뱅크2)"
+    },
+    {
+      "code": "P0200",
+      "system": "fuel",
+      "summary": "인젝터 회로 범위/성능 — 전체 인젝터 공통 전원 점검"
+    },
+    {
+      "code": "P0201",
+      "system": "fuel",
+      "summary": "인젝터 회로 이상(1기실) — 배선·인젝터 저항 점검"
+    },
+    {
+      "code": "P0202",
+      "system": "fuel",
+      "summary": "인젝터 회로 이상(2기실)"
+    },
+    {
+      "code": "P0203",
+      "system": "fuel",
+      "summary": "인젝터 회로 이상(3기실)"
+    },
+    {
+      "code": "P0204",
+      "system": "fuel",
+      "summary": "인젝터 회로 이상(4기실)"
+    },
+    {
+      "code": "P0234",
+      "system": "intake",
+      "summary": "터보 과부스트 — 웨이스트게이트·액추에이터 점검"
+    },
+    {
+      "code": "P0261",
+      "system": "fuel",
+      "summary": "인젝터 회로 저전압(1기실)"
+    },
+    {
+      "code": "P0262",
+      "system": "fuel",
+      "summary": "인젝터 회로 고전압(1기실)"
+    },
+    {
+      "code": "P0263",
+      "system": "fuel",
+      "summary": "1기실 기여도/밸런스 불량 — 압축압·인젝터 점검"
+    },
+    {
+      "code": "P0264",
+      "system": "fuel",
+      "summary": "2기실 기여도/밸런스 불량"
+    },
+    {
+      "code": "P0265",
+      "system": "fuel",
+      "summary": "3기실 기여도/밸런스 불량"
+    },
+    {
+      "code": "P0266",
+      "system": "fuel",
+      "summary": "4기실 기여도/밸런스 불량"
+    },
+    {
+      "code": "P0299",
+      "system": "intake",
+      "summary": "터보 언더부스트 — 과급 누기·부스트 호스·액추에이터 점검"
+    },
+    {
+      "code": "P0217",
+      "system": "cooling",
+      "summary": "엔진 과열 — 냉각수량·라디에이터·워터펌프 즉시 점검"
+    },
+    {
+      "code": "P0218",
+      "system": "transmission",
+      "summary": "변속기 과열 — 오일량·쿨러 점검"
+    },
+    {
+      "code": "P0230",
+      "system": "fuel",
+      "summary": "연료 펌프 1차 회로 이상 — 퓨즈·릴레이 점검"
+    },
+    {
+      "code": "P0231",
+      "system": "fuel",
+      "summary": "연료 펌프 신호 낮음"
+    },
+    {
+      "code": "P0232",
+      "system": "fuel",
+      "summary": "연료 펌프 신호 높음"
+    },
+    {
+      "code": "P0300",
+      "system": "ignition",
+      "summary": "다중 실린더 실화 — 플러그·코일·인젝터 종합 점검. 장주행 금지"
+    },
+    {
+      "code": "P0301",
+      "system": "ignition",
+      "summary": "1기실 실화 — 해당 실린더 플러그·코일 점검"
+    },
+    {
+      "code": "P0302",
+      "system": "ignition",
+      "summary": "2기실 실화"
+    },
+    {
+      "code": "P0303",
+      "system": "ignition",
+      "summary": "3기실 실화"
+    },
+    {
+      "code": "P0304",
+      "system": "ignition",
+      "summary": "4기실 실화"
+    },
+    {
+      "code": "P0305",
+      "system": "ignition",
+      "summary": "5기실 실화"
+    },
+    {
+      "code": "P0306",
+      "system": "ignition",
+      "summary": "6기실 실화"
+    },
+    {
+      "code": "P0325",
+      "system": "ignition",
+      "summary": "노크 센서 회로 이상(뱅크1) — 체결 토크·배선 점검"
+    },
+    {
+      "code": "P0330",
+      "system": "ignition",
+      "summary": "노크 센서 회로 이상(뱅크2) — V형 엔진 점검"
+    },
+    {
+      "code": "P0327",
+      "system": "ignition",
+      "summary": "노크 센서 신호 낮음"
+    },
+    {
+      "code": "P0335",
+      "system": "engine",
+      "summary": "크랭크 위치 센서 회로 이상 — 시동 불량 가능, 즉시 점검"
+    },
+    {
+      "code": "P0336",
+      "system": "engine",
+      "summary": "크랭크 위치 센서 범위/성능"
+    },
+    {
+      "code": "P0340",
+      "system": "engine",
+      "summary": "캠 위치 센서 회로 이상"
+    },
+    {
+      "code": "P0341",
+      "system": "engine",
+      "summary": "캠 위치 센서 범위/성능"
+    },
+    {
+      "code": "P0351",
+      "system": "ignition",
+      "summary": "점화 코일 A(1·4기실) 회로 이상"
+    },
+    {
+      "code": "P0352",
+      "system": "ignition",
+      "summary": "점화 코일 B(2·3기실) 회로 이상"
+    },
+    {
+      "code": "P0353",
+      "system": "ignition",
+      "summary": "점화 코일 C 회로 이상"
+    },
+    {
+      "code": "P0354",
+      "system": "ignition",
+      "summary": "점화 코일 D 회로 이상"
+    },
+    {
+      "code": "P0401",
+      "system": "emission",
+      "summary": "EGR 유량 부족 — EGR 밸브·통로 막힘 점검"
+    },
+    {
+      "code": "P0402",
+      "system": "emission",
+      "summary": "EGR 유량 과다 — 밸브 고착 의심"
+    },
+    {
+      "code": "P0403",
+      "system": "emission",
+      "summary": "EGR 제어 회로 이상"
+    },
+    {
+      "code": "P0420",
+      "system": "emission",
+      "summary": "촉매 효율 저하(뱅크1) — 촉매·후단 O2 센서 점검"
+    },
+    {
+      "code": "P0430",
+      "system": "emission",
+      "summary": "촉매 효율 저하(뱅크2)"
+    },
+    {
+      "code": "P0442",
+      "system": "emission",
+      "summary": "증발가스(EVAP) 소량 누기 — 연료 캡 체결부터 확인"
+    },
+    {
+      "code": "P0443",
+      "system": "emission",
+      "summary": "EVAP 퍼지 밸브 회로 이상"
+    },
+    {
+      "code": "P0455",
+      "system": "emission",
+      "summary": "EVAP 대량 누기 — 캡 미체결·호스 탈착 점검"
+    },
+    {
+      "code": "P0456",
+      "system": "emission",
+      "summary": "EVAP 미세 누기"
+    },
+    {
+      "code": "P0500",
+      "system": "chassis",
+      "summary": "차속 센서 신호 이상 — 계기판 속도·ABS 연동 확인"
+    },
+    {
+      "code": "P0501",
+      "system": "chassis",
+      "summary": "차속 센서 범위/성능"
+    },
+    {
+      "code": "P0505",
+      "system": "throttle",
+      "summary": "공회전 속도 제어 계통 이상 — ISC·스로틀 바디 오염 점검"
+    },
+    {
+      "code": "P0506",
+      "system": "throttle",
+      "summary": "공회전 속도가 목표보다 낮음"
+    },
+    {
+      "code": "P0507",
+      "system": "throttle",
+      "summary": "공회전 속도가 목표보다 높음"
+    },
+    {
+      "code": "P0562",
+      "system": "electrical",
+      "summary": "시스템 전압 낮음 — 발전기·배터리·접지 점검"
+    },
+    {
+      "code": "P0563",
+      "system": "electrical",
+      "summary": "시스템 전압 높음 — 발전기 조절기 점검"
+    },
+    {
+      "code": "P0601",
+      "system": "electrical",
+      "summary": "제어기 체크섬 오류 — 제어기 내부 결함 의심"
+    },
+    {
+      "code": "P0603",
+      "system": "electrical",
+      "summary": "제어기 보전 메모리(KAM) 오류 — 배터리 이력 확인"
+    },
+    {
+      "code": "P0604",
+      "system": "electrical",
+      "summary": "제어기 RAM 오류"
+    },
+    {
+      "code": "P0606",
+      "system": "electrical",
+      "summary": "제어기 프로세서 성능 이상"
+    },
+    {
+      "code": "P0615",
+      "system": "electrical",
+      "summary": "스타터 릴레이 회로 이상"
+    },
+    {
+      "code": "P0700",
+      "system": "transmission",
+      "summary": "변속기 제어 경고 — TCU 세부 코드 추가 확인 필요"
+    },
+    {
+      "code": "P0705",
+      "system": "transmission",
+      "summary": "변속 범위(기어 위치) 센서 회로 이상"
+    },
+    {
+      "code": "P0715",
+      "system": "transmission",
+      "summary": "변속기 입력 속도 센서 회로 이상"
+    },
+    {
+      "code": "P0720",
+      "system": "transmission",
+      "summary": "변속기 출력 속도 센서 회로 이상"
+    },
+    {
+      "code": "P0730",
+      "system": "transmission",
+      "summary": "변속비 부정확 — 오일 상태·클러치 점검"
+    },
+    {
+      "code": "P0740",
+      "system": "transmission",
+      "summary": "토크 컨버터 클러치 회로 이상"
+    },
+    {
+      "code": "P0741",
+      "system": "transmission",
+      "summary": "토크 컨버터 클러치 성능 저하/고정"
+    },
+    {
+      "code": "P0410",
+      "system": "emission",
+      "summary": "2차공기 주입 시스템 오류 — 펌프·릴레이·밸브 점검"
+    },
+    {
+      "code": "P0411",
+      "system": "emission",
+      "summary": "2차공기 주입 유량 부정확 — 호스 누기·밸브 점검"
+    },
+    {
+      "code": "P0440",
+      "system": "emission",
+      "summary": "증발가스(EVAP) 시스템 오류 — 캡·호스·밸브 점검"
+    },
+    {
+      "code": "P0441",
+      "system": "emission",
+      "summary": "EVAP 퍼지 유량 부정확"
+    },
+    {
+      "code": "P0444",
+      "system": "emission",
+      "summary": "EVAP 퍼지 밸브 회로 개방"
+    },
+    {
+      "code": "P0446",
+      "system": "emission",
+      "summary": "EVAP 환기 밸브 회로 이상"
+    },
+    {
+      "code": "P0449",
+      "system": "emission",
+      "summary": "EVAP 퍼지 솔레노이드 회로 이상"
+    },
+    {
+      "code": "P0480",
+      "system": "cooling",
+      "summary": "냉각팬 1 제어 회로 이상 — 팬 작동·릴레이 점검"
+    },
+    {
+      "code": "P0481",
+      "system": "cooling",
+      "summary": "냉각팬 2 제어 회로 이상"
+    },
+    {
+      "code": "P0491",
+      "system": "emission",
+      "summary": "2차공기 주입 유량 부족(뱅크1)"
+    },
+    {
+      "code": "P0492",
+      "system": "emission",
+      "summary": "2차공기 주입 유량 부족(뱅크2)"
+    },
+    {
+      "code": "P0502",
+      "system": "chassis",
+      "summary": "차속 센서 신호 낮음"
+    },
+    {
+      "code": "P0503",
+      "system": "chassis",
+      "summary": "차속 센서 신호 간헐/높음"
+    },
+    {
+      "code": "P0510",
+      "system": "throttle",
+      "summary": "스로틀 위치 스위치 이상 — 아이들 스위치 점검"
+    },
+    {
+      "code": "P0511",
+      "system": "throttle",
+      "summary": "공회전 제어 입력 회로 이상"
+    },
+    {
+      "code": "P0520",
+      "system": "engine",
+      "summary": "엔진오일 압력 센서 회로 이상 — 즉시 오일압력 확인"
+    },
+    {
+      "code": "P0521",
+      "system": "engine",
+      "summary": "엔진오일 압력 센서 범위/성능"
+    },
+    {
+      "code": "P0522",
+      "system": "engine",
+      "summary": "엔진오일 압력 센서 신호 낮음"
+    },
+    {
+      "code": "P0523",
+      "system": "engine",
+      "summary": "엔진오일 압력 센서 신호 높음"
+    },
+    {
+      "code": "P0551",
+      "system": "chassis",
+      "summary": "파워스티어링 압력 스위치 이상"
+    },
+    {
+      "code": "P0561",
+      "system": "electrical",
+      "summary": "시스템 전압 불안정 — 접지·배터리 단자 점검"
+    },
+    {
+      "code": "P0602",
+      "system": "electrical",
+      "summary": "제어기 프로그래밍 오류 — 재프로그래밍 이력 확인"
+    },
+    {
+      "code": "P0610",
+      "system": "electrical",
+      "summary": "제어기 차량 구성 옵션 오류"
+    },
+    {
+      "code": "P0616",
+      "system": "electrical",
+      "summary": "스타터 릴레이 회로 저전압"
+    },
+    {
+      "code": "P0617",
+      "system": "electrical",
+      "summary": "스타터 릴레이 회로 고전압"
+    },
+    {
+      "code": "P0620",
+      "system": "electrical",
+      "summary": "발전기(충전) 제어 회로 이상"
+    },
+    {
+      "code": "P0621",
+      "system": "electrical",
+      "summary": "발전기 L단자 이상"
+    },
+    {
+      "code": "P0622",
+      "system": "electrical",
+      "summary": "발전기 F단자 이상"
+    },
+    {
+      "code": "P0627",
+      "system": "fuel",
+      "summary": "연료 펌프 A 제어 회로 개방"
+    },
+    {
+      "code": "P0630",
+      "system": "electrical",
+      "summary": "VIN이 제어기에 프로그래밍되지 않음/불일치"
+    },
+    {
+      "code": "P0638",
+      "system": "throttle",
+      "summary": "스로틀 액추에이터 범위/성능 — 카본 오염·학습 초기화"
+    },
+    {
+      "code": "P0645",
+      "system": "electrical",
+      "summary": "에어컨 클러치 릴레이 회로 이상"
+    },
+    {
+      "code": "P0650",
+      "system": "electrical",
+      "summary": "경고등(MIL) 제어 회로 이상"
+    },
+    {
+      "code": "P0660",
+      "system": "intake",
+      "summary": "흡기 매니폴 튜닝 밸브 회로 이상(뱅크1)"
+    },
+    {
+      "code": "P0703",
+      "system": "transmission",
+      "summary": "브레이크 스위치 B 회로 이상 — 변속 충격 원인 가능"
+    },
+    {
+      "code": "P0704",
+      "system": "transmission",
+      "summary": "클러치 입력 스위치 회로 이상"
+    },
+    {
+      "code": "P0711",
+      "system": "transmission",
+      "summary": "변속기 오일(ATF) 온도 센서 범위/성능"
+    },
+    {
+      "code": "P0712",
+      "system": "transmission",
+      "summary": "ATF 온도 센서 신호 낮음"
+    },
+    {
+      "code": "P0713",
+      "system": "transmission",
+      "summary": "ATF 온도 센서 신호 높음"
+    },
+    {
+      "code": "P0716",
+      "system": "transmission",
+      "summary": "입력 속도 센서 신호 간헐"
+    },
+    {
+      "code": "P0721",
+      "system": "transmission",
+      "summary": "출력 속도 센서 신호 간헐"
+    },
+    {
+      "code": "P0725",
+      "system": "engine",
+      "summary": "엔진 속도 센서 회로 이상(변속기 입력)"
+    },
+    {
+      "code": "P0731",
+      "system": "transmission",
+      "summary": "1단 변속비 부정확"
+    },
+    {
+      "code": "P0732",
+      "system": "transmission",
+      "summary": "2단 변속비 부정확"
+    },
+    {
+      "code": "P0733",
+      "system": "transmission",
+      "summary": "3단 변속비 부정확"
+    },
+    {
+      "code": "P0734",
+      "system": "transmission",
+      "summary": "4단 변속비 부정확"
+    },
+    {
+      "code": "P0735",
+      "system": "transmission",
+      "summary": "5단 변속비 부정확"
+    },
+    {
+      "code": "P0736",
+      "system": "transmission",
+      "summary": "후진 변속비 부정확"
+    },
+    {
+      "code": "P0742",
+      "system": "transmission",
+      "summary": "토크 컨버터 클러치 고정 — 오일 상태 즉시 점검"
+    },
+    {
+      "code": "P0743",
+      "system": "transmission",
+      "summary": "토크 컨버터 클러치 전기 회로 이상"
+    },
+    {
+      "code": "P0744",
+      "system": "transmission",
+      "summary": "토크 컨버터 클러치 간헐 오류"
+    },
+    {
+      "code": "P0745",
+      "system": "transmission",
+      "summary": "압력 제어 솔레노이드 A 회로 이상"
+    },
+    {
+      "code": "P0746",
+      "system": "transmission",
+      "summary": "압력 제어 솔레노이드 A 성능/고정"
+    },
+    {
+      "code": "P0748",
+      "system": "transmission",
+      "summary": "압력 제어 솔레노이드 A 전기 회로 이상"
+    },
+    {
+      "code": "P0751",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 A 성능/고정"
+    },
+    {
+      "code": "P0753",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 A 전기 회로 이상"
+    },
+    {
+      "code": "P0756",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 B 성능/고정"
+    },
+    {
+      "code": "P0758",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 B 전기 회로 이상"
+    },
+    {
+      "code": "P0761",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 C 성능/고정"
+    },
+    {
+      "code": "P0766",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 C 성능/고정 이상"
+    },
+    {
+      "code": "P0770",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 E 이상"
+    },
+    {
+      "code": "P0773",
+      "system": "transmission",
+      "summary": "변속 솔레노이드 E 전기 회로 이상"
+    },
+    {
+      "code": "P0805",
+      "system": "transmission",
+      "summary": "클러치 위치 센서 회로 이상"
+    },
+    {
+      "code": "P0806",
+      "system": "transmission",
+      "summary": "클러치 위치 센서 범위/성능"
+    },
+    {
+      "code": "P0810",
+      "system": "transmission",
+      "summary": "클러치 제어 오류"
+    },
+    {
+      "code": "U0111",
+      "system": "network",
+      "summary": "배터리 제어 모듈과 통신 두절 — 전기차/하이브리드 점검"
+    },
+    {
+      "code": "U0131",
+      "system": "network",
+      "summary": "파워스티어링 제어 모듈과 통신 두절"
+    },
+    {
+      "code": "U0140",
+      "system": "network",
+      "summary": "바디 제어 모듈(BCM)과 통신 두절"
+    },
+    {
+      "code": "U0155",
+      "system": "network",
+      "summary": "계기판 클러스터와 통신 두절"
+    },
+    {
+      "code": "U0164",
+      "system": "network",
+      "summary": "에어컨(HVAC) 제어기와 통신 두절"
+    },
+    {
+      "code": "U0184",
+      "system": "network",
+      "summary": "오디오 유닛과 통신 두절"
+    },
+    {
+      "code": "C0035",
+      "system": "chassis",
+      "summary": "우전 휠스피드 센서 전원(서플라이) 회로 이상 — ABS 계통 점검"
+    },
+    {
+      "code": "C0040",
+      "system": "chassis",
+      "summary": "브레이크 페달 스위치 A 회로 이상 — 제동등·크루즈 해제 점검"
+    },
+    {
+      "code": "C0045",
+      "system": "chassis",
+      "summary": "브레이크 압력 센서 B 회로 이상"
+    },
+    {
+      "code": "U0100",
+      "system": "network",
+      "summary": "엔진 제어기(ECM/PCM)와 통신 두절 — 배선·커넥터 점검"
+    },
+    {
+      "code": "U0101",
+      "system": "network",
+      "summary": "변속기 제어기(TCU)와 통신 두절"
+    },
+    {
+      "code": "U0121",
+      "system": "network",
+      "summary": "ABS 제어 모듈과 통신 두절"
+    },
+    {
+      "code": "P0089",
+      "system": "fuel",
+      "summary": "연료 압력 조절기 A 성능 저하 — 압력 추종성 점검"
+    },
+    {
+      "code": "P0093",
+      "system": "fuel",
+      "summary": "연료계 대량 누기 감지 — 배관·커넥터 육안 점검"
+    },
+    {
+      "code": "P0094",
+      "system": "fuel",
+      "summary": "연료계 소량 누기 감지"
+    },
+    {
+      "code": "P0219",
+      "system": "engine",
+      "summary": "엔진 과속 상태 — 변속 미체결·미끄러짐 원인 점검"
+    },
+    {
+      "code": "P0220",
+      "system": "throttle",
+      "summary": "스로틀/페달 위치 센서 B 회로 이상 — 이중 센서 불일치 점검"
+    },
+    {
+      "code": "P0235",
+      "system": "intake",
+      "summary": "터보 부스트 센서 A 회로 이상 — 호스 누기·센서 점검"
+    },
+    {
+      "code": "P0243",
+      "system": "intake",
+      "summary": "웨이스트게이트 액추에이터 A 회로 이상 — 부스트 제어 점검"
+    },
+    {
+      "code": "P0297",
+      "system": "chassis",
+      "summary": "차량 속도 한계 초과 지속 — 주행 조건 확인"
+    },
+    {
+      "code": "P0298",
+      "system": "engine",
+      "summary": "엔진오일 과온 — 오일량·쿨러 점검 후 운행 재개"
+    },
+    {
+      "code": "P0316",
+      "system": "ignition",
+      "summary": "시동 직후(초기 1000회전) 실화 감지 — 시동 상태 점검"
+    },
+    {
+      "code": "P0320",
+      "system": "ignition",
+      "summary": "점화/엔진 속도 입력 회로 이상"
+    },
+    {
+      "code": "P0400",
+      "system": "emission",
+      "summary": "EGR 유량 이상 — 밸브·통로 점검"
+    },
+    {
+      "code": "P0405",
+      "system": "emission",
+      "summary": "EGR 위치 센서 A 신호 낮음"
+    },
+    {
+      "code": "P0406",
+      "system": "emission",
+      "summary": "EGR 위치 센서 A 신호 높음"
+    },
+    {
+      "code": "P0450",
+      "system": "emission",
+      "summary": "증발가스(EVAP) 압력 센서 회로 이상"
+    },
+    {
+      "code": "P0452",
+      "system": "emission",
+      "summary": "EVAP 압력 센서 신호 낮음"
+    },
+    {
+      "code": "P0453",
+      "system": "emission",
+      "summary": "EVAP 압력 센서 신호 높음"
+    },
+    {
+      "code": "P0460",
+      "system": "fuel",
+      "summary": "연료 레벨 센서 회로 이상 — 계기판 연료 표시 확인"
+    },
+    {
+      "code": "P0462",
+      "system": "fuel",
+      "summary": "연료 레벨 센서 신호 낮음"
+    },
+    {
+      "code": "P0530",
+      "system": "electrical",
+      "summary": "에어컨 냉매 압력 센서 회로 이상 — 냉방 성능 점검"
+    },
+    {
+      "code": "P0560",
+      "system": "electrical",
+      "summary": "시스템 전압 회로 이상 — 배터리·발전기 점검"
+    },
+    {
+      "code": "P0600",
+      "system": "network",
+      "summary": "제어기 간 직렬 통신 링크 이상"
+    }
+  ]
+}

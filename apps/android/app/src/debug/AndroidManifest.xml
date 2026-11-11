@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+    <application
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SpeechProbeActivity" android:exported="false" />
+    </application>
+</manifest>
